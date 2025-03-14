@@ -15,3 +15,4 @@ RUN pnpm run build
 FROM nginx:mainline-alpine-slim AS runtime
 COPY --from=base /app/dist /usr/share/nginx/html
 EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

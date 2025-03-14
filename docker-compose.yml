@@ -1,9 +1,9 @@
 services:
   app:
-    image: node:lts
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 4321:4321
-    working_dir: /app
-    command: npm run dev -- --host 0.0.0.0
-    volumes:
-      - ./:/app
+      - 4000:80
+    restart: unless-stopped
+    # No need for volumes in production as content is baked into the image
