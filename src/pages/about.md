@@ -1,36 +1,18 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About me"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Hello dear friend. Welcome to my humble blog. I am a software engineer by profession and an aspiring writer and entrepreneur. I love creating unique, intersting digital products that bring joy and usefulness to people's lives.
 
 <div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/profile.jpg" class="sm:w-1/2 mx-auto" alt="profile picture in kirstenbosch gardens, south africa">
 </div>
 
-## Tech Stack
+Born and raised in South Africa, I moved to Belgium in 2009 to study industrial design. After graduating, I worked as a product designer for a few years before I discovered my passion for software development. Nowadays I aspire to write more about my journey and experiences.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+I hope you can find yourself in my stories and that we can connect over our shared experiences.
 
-## Features
+Wishing you a beautiful cosmic journey through the ever expanding universe.
 
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+<span class="text-4xl flex items-center justify-center">🪐</span>
