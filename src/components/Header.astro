@@ -7,6 +7,7 @@ import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
+import Logo from "@/assets/blog-logo.svg";
 import { SITE } from "@/config";
 
 const { pathname } = Astro.url;
@@ -37,13 +38,10 @@ const isActive = (path: string) => {
   >
     <div
       id="top-nav-wrap"
-      class="relative flex w-full items-baseline justify-between bg-background p-4 sm:py-6"
+      class="relative flex w-full items-center justify-between bg-background p-4 sm:py-6"
     >
-      <a
-        href="/"
-        class="absolute py-1 text-2xl leading-7 font-semibold whitespace-nowrap sm:static"
-      >
-        {SITE.title}
+      <a href="/" class="w-[400px] sm:static">
+        <Logo class="w-full dark:invert" />
       </a>
       <nav
         id="nav-menu"

@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "^3.2.1",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.0.12",
-    "astro": "^5.4.2",
+    "astro": "^5.5.2",
     "lodash.kebabcase": "^4.1.1",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
@@ -40,5 +40,6 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.0"
-  }
+  },
+  "packageManager": "pnpm@10.6.5+sha256.47c8bca42b4b48534b5b1b28d573c506773937b02f68e52992fbd8269131c5c8"
 }
