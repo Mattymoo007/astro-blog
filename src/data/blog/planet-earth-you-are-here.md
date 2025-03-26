@@ -1,7 +1,7 @@
 ---
 author: Matthew Bracke
 pubDatetime: 2025-03-26T15:22:00Z
-modDatetime: 2025-03-26T07:46:00.619Z
+modDatetime: 2025-03-26T08:00:00Z
 title: Planet Earth. You are here 🌍
 slug: planet-earth-you-are-here
 featured: true
