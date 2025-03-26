@@ -8,17 +8,17 @@
 html[data-theme="light"] {
   --background: #f2f5ec;
   --foreground: #353538;
-  --accent: #1158d1;
-  --muted: #bbc789;
-  --border: #7cadff;
+  --accent: #617bff;
+  --muted: #0c0e4f;
+  --border: #8a9aff;
 }
 
 html[data-theme="dark"] {
   --background: #000123;
-  --accent: #617bff;
   --foreground: #eaedf3;
-  --muted: #0c0e4f;
-  --border: #303f8a;
+  --accent: #9b30ff;
+  --muted: #9b30ff80;
+  --border: #9b30ff80;
 }
 
 @theme inline {
@@ -58,4 +58,8 @@ html[data-theme="dark"] {
 
 .active-nav {
   @apply underline decoration-wavy decoration-2 underline-offset-4;
+}
+
+u {
+  @apply decoration-accent decoration-2;
 }

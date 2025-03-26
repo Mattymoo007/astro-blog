@@ -1,13 +1,10 @@
 ---
 draft: false
 pubDatetime: 2025-03-20
+modifiedDatetime: 2025-03-26
 title: My first post
 description: something
+slug: my-first-post
 ---
-Something
 
-## Motivation
-
-rec 1
-
-Testing
+Hello world 👋
